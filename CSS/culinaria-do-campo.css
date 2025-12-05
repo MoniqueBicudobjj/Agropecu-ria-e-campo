@@ -23,6 +23,45 @@ header {
     font-weight: bold;
 }
 
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.banner {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.banner-content h2 {
+    font-size: 2.3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.banner-content p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -37,12 +76,6 @@ header {
 
 .nav-links a:hover {
     text-decoration: underline;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 30px;
-    color: #1b5e20;
 }
 
 .intro {
